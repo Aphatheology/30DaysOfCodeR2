@@ -6,4 +6,4 @@
 
 - If divisible by both 3 and 5, print FizzBuzz
 
-## Hosted link: https://aphatheology.github.io/30DaysOfCodeR2/Day2_Fizz_Buzz/
+## Hosted link: https://aphatheology.github.io/30DaysOfCodeR2/Day2_FizzBuzz/
