@@ -14,6 +14,8 @@ function fizzBuzz(n) {
         
     }
     console.log(output)
+
+    return output;
 }
 
 // TEST
