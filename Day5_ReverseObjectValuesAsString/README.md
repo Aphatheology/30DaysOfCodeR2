@@ -13,13 +13,9 @@
 
 
 ## Things I learned from this Challenge
-- There are several ways of solving a problem, as a beginner, I will first make it work, then I improve the method used.
-
-- Try to consider weird test cases.
-    - The first method I used is by hardcoding the ouput, I am putting the "/" manually, if a new key-value pair is added to the objects, the output won't consider it. 
-    
-    - The second method is using the array method .join('/') which will make the output perfect even the object is increased.
 
 - I learned and practised destructuring, and other Objects methods like `Object.keys, Object.values, Object.entries and Object.fromEntries`
 
-### Hosted link: https://aphatheology.github.io/30DaysOfCodeR2/Day4_ObjectValuesAsString/
+- I use google for different ways of renaming Object keys, it was a great experience looking at both old and new solutions.
+
+### Hosted link: https://aphatheology.github.io/30DaysOfCodeR2/Day5_ReverseObjectValuesAsString/
