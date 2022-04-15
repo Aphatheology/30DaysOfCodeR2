@@ -20,14 +20,10 @@
     
 ## Things I learned from this Challenge
 
-- I learned and practised how to sort array with the built in sort()
+- I learned and practised how to check if parameter is an array
 
-- I learned the shortcomings of the sort() method and how to bypass it by introducing a compare function
-
-- I learned how to sort array without using the built in sort()
-
-- Most things learned are from the answers on this page https://stackoverflow.com/questions/1063007/how-to-sort-an-array-of-integers-correctly
+- Other knowledge used in the task is from Day 7 task which is to sort an array.
 
 
 
-### Hosted link: https://aphatheology.github.io/30DaysOfCodeR2/Day7_SortUnsortedArray/
+### Hosted link: https://aphatheology.github.io/30DaysOfCodeR2/Day10_Merge2SortedArrays/
