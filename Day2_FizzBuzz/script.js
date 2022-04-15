@@ -18,5 +18,14 @@ function fizzBuzz(n) {
     return output;
 }
 
+function conciseFizzBuzz(n) {
+    for (let i = 1; i <= n; i++) {
+        let f = i % 3 == 0,
+          b = i % 5 == 0;
+        console.log(f ? (b ? 'FizzBuzz' : 'Fizz') : b ? 'Buzz' : i);
+      }
+}
+
 // TEST
-fizzBuzz(23)
+//fizzBuzz(23)
+conciseFizzBuzz(23)
