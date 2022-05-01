@@ -9,7 +9,7 @@ function highlightWord() {
 	let inputText = allText.value;
 	let textToHighlight = mainText.value;
 	if(inputText.length > 100 || inputText == '' || textToHighlight == '' ) {
-		console.log("Input should be less than 100 and not empty")
+		alert("Input should be less than 100 and not empty");
 	} 
 	else {
 		let textArray = inputText.split(' ');
@@ -24,6 +24,7 @@ function highlightWord() {
 		
 		let finalOutput = newArray.join(' ');
 		header.innerHTML = finalOutput;
+        
 		if (count === 0) {
 			alert("Cannot highlight word in sentence")
 		} else if (count > 2) {
