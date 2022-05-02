@@ -9,8 +9,8 @@ function highlightWord() {
     // let start = new Date().getTime();
 	let inputText = allText.value;
 	let textToHighlight = mainText.value;
-	if(inputText.length > 100 || inputText == '' || textToHighlight == '' ) {
-		alert("Input should be less than 100 and not empty");
+	if(inputText == '' || textToHighlight == '' ) {
+		alert("Input can't be empty");
 	} 
 	else {
 		let textArray = inputText.split(' ');
