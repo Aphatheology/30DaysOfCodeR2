@@ -13,9 +13,15 @@
         <h2></h2>
     </div>
 
+    <!-- <div>
+        <input class="all-text" type="text" placeholder="Enter all text" onkeyup="wordLimit(this, 100)"/>
+        <input class="main-text" type="text" placeholder="Enter word to search" onkeyup="wordLimit(this, 1)" />
+        <button>Highlight</button>
+    </div> -->
+
     <div>
-        <input class="all-text" type="text" placeholder="Enter all text" />
-        <input class="main-text" type="text" placeholder="Enter word to search" />
+        <input class="all-text" type="text" placeholder="Enter all text" data-max-words="100" data-announce="true"/>
+        <input class="main-text" type="text" placeholder="Enter word to search" data-max-words="1" data-announce="true" />
         <button>Highlight</button>
     </div>
   	
