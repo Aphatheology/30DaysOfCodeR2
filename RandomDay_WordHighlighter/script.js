@@ -6,6 +6,7 @@ const header = document.querySelector('h2')
 button.addEventListener('click', highlightWord);
 
 function highlightWord() {
+    // let start = new Date().getTime();
 	let inputText = allText.value;
 	let textToHighlight = mainText.value;
 	if(inputText.length > 100 || inputText == '' || textToHighlight == '' ) {
@@ -31,4 +32,5 @@ function highlightWord() {
 			alert("Too many occurrences to be highlighted")
 		}
 	}
+    // console.log(new Date().getTime() - start);
 }
