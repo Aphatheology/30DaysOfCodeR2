@@ -16,7 +16,7 @@ function highlightWord() {
 		let textArray = inputText.split(' ');
 		let count = 0;
 		let newArray = textArray.map(eachWord => {
-			if(eachWord.toLowerCase() === textToHighlight.toLowerCase().trim()) {
+			if(eachWord.toLowerCase() === textToHighlight.toLowerCase()) {
 			count += 1;
 			eachWord = `<mark>${eachWord.toUpperCase()}</mark>`;
 			}
